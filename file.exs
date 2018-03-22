@@ -5,7 +5,7 @@ defmodule Cases do
 
   def case do
     parse = true
-    can parse do
+    case parse do
       true -> :works
     end
   end
